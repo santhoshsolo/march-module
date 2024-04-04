@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+}   
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    margin-right: 50px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    color: white
+}
+
+.form-container input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.employees-container {
+    max-width: 400px;
+}
+#employeelist{
+    color:#fff;
+}
+
+
+.employees-container h2 {
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+.employee {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:#fff;
+}
+
+.employee button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.employee button:hover {
+    background-color: #c82333;
+}
+
+#messages {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}   
